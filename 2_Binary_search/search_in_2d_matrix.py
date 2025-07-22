@@ -26,7 +26,9 @@ def searchMatrix(matrix, target):
         else:
             r = m-1
     return False
-    
+
+# TC: O(logM) + O(logN) where M are rows and N are elements per row, overall O(LogN)
+# SC: O(1) we are not storing anything
         
 
 matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]]
